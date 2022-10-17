@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sitebar{
+  width: 20%;
+  border: 2px blue;
+  height: 100vh;
+  box-sizing: border-box;
+  padding:0;
+}
+
+.nav{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navitem{
+  color: blue;
+  list-style: none;
+  width: 75%;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.app-blok{
+  width: 500px;
+  padding: 10px;
+}
+
+.box{
+  background-color: skyblue;
+  width: 70%;
+  height: 80vh;
+  padding: 45px;
+}
+
